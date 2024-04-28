@@ -85,6 +85,10 @@ progress::-webkit-progress-value {
   margin: 8px !important;
 }
 
+.navMenuOption-selected {
+  border-radius: var(--rounding) !important;
+}
+
 .navMenuOption:hover {
 	border-radius: var(--rounding) !important;
 }
