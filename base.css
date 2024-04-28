@@ -169,7 +169,7 @@ div[data-role="controlgroup"] a[data-role="button"] {
 }
 .listItem:hover {
     transition: 0.2s;
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0);
 }
 .visualCardBox, .cardImageContainer {
     box-shadow: none;
@@ -225,4 +225,9 @@ div[data-role="controlgroup"] a[data-role="button"] {
 .formDialogHeader-clear,
 .innerCardFooterClear {
     background-color: transparent !important;
+}
+
+/* Overrides the default icon and uses the version without the text for a cleaner look */
+.pageTitleWithDefaultLogo {
+  background-image: url(../../assets/img/icon-transparent.png);
 }
