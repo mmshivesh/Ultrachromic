@@ -76,8 +76,24 @@ progress::-webkit-progress-value {
   border-radius: var(--rounding) !important;
 }
 .actionSheetMenuItem:hover {
-    border-radius: 0 !important;
+    border-radius: var(--rounding) !important;
 }
+
+
+.navMenuOption {
+  padding: .9em 2.4em .9em 2.4em !important;
+  margin: 8px !important;
+}
+
+.navMenuOption:hover {
+	border-radius: var(--rounding) !important;
+}
+
+.actionSheetContent {
+	margin: 5px !important;
+	padding: 0px !important;
+}
+
 fieldset {
     border-radius: var(--rounding);
 }
